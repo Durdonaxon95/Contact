@@ -27,7 +27,7 @@ namespace Consol.Classes
                             Console.Write("Nomi: ");
                             contact.Ism = Console.ReadLine();
                             Console.Write("Telefon raqami: ");
-                            contact.Telefonraqam = Console.ReadLine();
+                            contact.Telefonraqam = Convert.ToInt32(Console.ReadLine());
                             asosiyXizmat.ContactQoshish(contact);
                         });
                         break;
