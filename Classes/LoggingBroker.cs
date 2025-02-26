@@ -5,7 +5,7 @@ namespace Consol.Classes
         public static void LogError(string message)
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine($"[XATO] {DateTime.Now}: {message}");
+            Console.WriteLine($"[XATO] {DateTime.Now}: Siz noto'g'ri qiymat kiritdingiz!");
             Console.ResetColor();
         }
 
